@@ -30,7 +30,7 @@ public class DemoXmlConfiguration {
 	
 	
 	private static void demo01_getUserByType(){
-		ApplicationContext context = new ClassPathXmlApplicationContext("spring-beans.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-beans.xml"); // connect spring with metadata, this is where spring begins
 		UserService userService =  context.getBean(UserService.class);
 		userService.save(Mocks.mockUser());
 		
