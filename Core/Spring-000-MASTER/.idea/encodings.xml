@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-010-Common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-120-CP-Scanning" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-130-Annotations" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-140-BeanScopes" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-100-DI/Spring-150-BeanLifecycles" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-300-Advanced" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-300-Advanced/Spring-370-UnitTests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-400" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-400/Spring-405-Commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-400/Spring-410-Jdbc" charset="UTF-8" />
+  </component>
+</project>

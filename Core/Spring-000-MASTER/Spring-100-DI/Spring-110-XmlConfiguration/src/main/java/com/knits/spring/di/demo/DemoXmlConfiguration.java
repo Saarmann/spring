@@ -1,5 +1,6 @@
 package com.knits.spring.di.demo;
 
+import com.knits.spring.common.service.MyService;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -19,12 +20,12 @@ public class DemoXmlConfiguration {
 
 	public static void main(String[] args) {
 		
-		demo01_getUserByType();
+//		demo01_getUserByType();
 		demo02_getUserById();		
-		demo03_getUserByName();
-		demo04_getUserFrom_BeanFactory();
-		demo05_getUserFrom_ApplicationCtxImpls();		
-		demo06_collectionInjection();		
+//		demo03_getUserByName();
+//		demo04_getUserFrom_BeanFactory();
+//		demo05_getUserFrom_ApplicationCtxImpls();
+//		demo06_collectionInjection();
 	}
 	
 	
@@ -37,8 +38,11 @@ public class DemoXmlConfiguration {
 	
 	private static void demo02_getUserById(){
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring-beans.xml");
-		UserService userService = context.getBean("UserServiceBean",UserService.class);
-		userService.save(Mocks.mockUser());
+//		UserService userService = context.getBean("UserServiceBean",UserService.class);
+//		userService.save(Mocks.mockUser());
+
+		MyService myService = context.getBean("MyService",MyService.class);
+		myService.feature(Mocks.mockUser());
 	}
 
 	private static void demo03_getUserByName(){

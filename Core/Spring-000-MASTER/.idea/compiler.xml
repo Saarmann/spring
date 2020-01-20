@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-120-CP-Scanning" />
+        <module name="Spring-110-XmlConfiguration" />
+        <module name="Spring-150-BeanLifecycles" />
+        <module name="Spring-370-UnitTests" />
+        <module name="Spring-105-Common" />
+        <module name="Spring-410-Jdbc" />
+        <module name="Spring-010-Common" />
+        <module name="Spring-405-Commons" />
+        <module name="Spring-140-BeanScopes" />
+        <module name="Spring-130-Annotations" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
