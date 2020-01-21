@@ -1,5 +1,7 @@
 package com.knits.spring.di.demo;
 
+import com.knits.spring.common.dao.CustomerDaoImpl;
+import com.knits.spring.common.service.CustomerService;
 import com.knits.spring.common.service.MyService;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
@@ -15,20 +17,66 @@ import com.knits.spring.common.utils.Mocks;
 
 import lombok.extern.slf4j.Slf4j;
 
+import javax.sql.DataSource;
+import java.sql.Connection;
+
 @Slf4j
 public class DemoXmlConfiguration {
 
 	public static void main(String[] args) {
 		
 //		demo01_getUserByType();
-		demo02_getUserById();		
+	//	demo02_getUserById();
 //		demo03_getUserByName();
 //		demo04_getUserFrom_BeanFactory();
 //		demo05_getUserFrom_ApplicationCtxImpls();
 //		demo06_collectionInjection();
+
+//		connectionTest();
+		myCustomers();
 	}
 	
-	
+	private static void connectionTest() {
+		ApplicationContext context = new ClassPathXmlApplicationContext("demo-beans.xml");
+
+		DataSource datasource = context.getBean(DataSource.class);
+
+		Connection conn = null;
+		try
+		{
+			conn = datasource.getConnection();
+			System.err.println ("Connection opened");
+		}
+		catch (Exception e)
+		{
+			System.err.println ("Impossible to connect to Database");
+			e.printStackTrace();
+
+		}
+		finally
+		{
+			if (conn != null)
+			{
+				try
+				{
+					conn.close ();
+					System.out.println ("connection closed");
+				}
+				catch (Exception e) { /* ignore close errors */ }
+			}
+		}
+		//myService.;
+
+	}
+
+
+	private static void myCustomers(){
+		ApplicationContext context = new ClassPathXmlApplicationContext("demo-beans.xml");
+		CustomerService customerService = context.getBean(CustomerService.class);
+
+		customerService.showCustomers();
+	}
+
 	private static void demo01_getUserByType(){
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring-beans.xml"); // connect spring with metadata, this is where spring begins
 		UserService userService =  context.getBean(UserService.class);

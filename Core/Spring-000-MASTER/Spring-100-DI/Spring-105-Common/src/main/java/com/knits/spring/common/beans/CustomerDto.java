@@ -1,5 +1,8 @@
 package com.knits.spring.common.beans;
 
+import lombok.Data;
+
+@Data
 public class CustomerDto {
 
     private int id;

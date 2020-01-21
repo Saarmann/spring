@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfe3c19-123e-48ca-9760-96d0b50fb463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/target/classes/com/knits/spring/di/demo/DemoXmlConfiguration.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Spring-300-Advanced/target/" />
@@ -35,19 +41,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="493">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="471">
+              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#connectionTest#0;class#DemoXmlConfiguration#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +78,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/UserDto.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -65,49 +105,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/MyService.java">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/ServiceWithCollections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,20 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/integration/UserJmsClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="969">
+              <caret line="57" column="71" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,14 +151,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>UserServiceBean</find>
+      <find>jmsClient</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,11 +173,17 @@
       <list>
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/MyService.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml" />
-        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" />
-        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/ProjectUtils.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" />
       </list>
     </option>
   </component>
@@ -192,8 +206,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="80" />
+    <option name="x" value="-278" />
+    <option name="y" value="99" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -370,6 +384,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Spring-000-MASTER" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-000-MASTER" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-100-DI" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring-110-XmlConfiguration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -378,10 +401,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\spring\Core\Spring-000-MASTER\Spring-100-DI\Spring-110-XmlConfiguration\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -441,7 +470,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.17590618" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,7 +479,35 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28379673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32981783" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32981783" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32981783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.27242887" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" weight="0.37636763" />
+      <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.17590618" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2843327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,11 +520,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13272922" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.27242887" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Spring-010-Common/src/main/java/com/knits/spring/common/beans/UserDto.java">
@@ -484,27 +545,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-120-CP-Scanning/src/main/java/com/knits/spring/di/demo/DemoClasspathScanning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-130-Annotations/src/main/java/com/knits/spring/di/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-130-Annotations/src/main/java/com/knits/spring/di/demo/DemoJavaConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -525,23 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/Service.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/CustomerDto.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-010-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
@@ -582,24 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/integration/UserJmsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/integration/UserRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -613,41 +623,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Customer.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/CustomerDao.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/ProjectUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2392">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="188">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/User.java">
+    <entry file="file://$PROJECT_DIR$/project/Service.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/CustomerDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-120-CP-Scanning/src/main/java/com/knits/spring/di/demo/DemoClasspathScanning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-120-CP-Scanning/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-120-CP-Scanning/src/main/resources/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-130-Annotations/src/main/java/com/knits/spring/di/demo/DemoJavaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-130-Annotations/src/main/java/com/knits/spring/di/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/MyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -661,40 +704,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/integration/UserRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/integration/UserJmsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,26 +762,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="18" selection-end-column="28" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java">
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="-17">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="71" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectionTest#0;class#DemoXmlConfiguration#0" />
           </folding>
         </state>
       </provider>

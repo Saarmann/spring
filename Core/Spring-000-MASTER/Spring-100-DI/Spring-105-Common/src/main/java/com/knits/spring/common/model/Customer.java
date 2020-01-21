@@ -18,4 +18,5 @@ public class Customer {
     private String contact;
     private int paymentTerm;
 
+
 }

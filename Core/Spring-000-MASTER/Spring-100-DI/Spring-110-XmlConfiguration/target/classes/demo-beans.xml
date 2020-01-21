@@ -1,0 +1,57 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/util
+	http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+<!--	refer to bean id - CustomerDaoBean (Class CustomerDaoImpl requires datasource) refers to datasource-->
+
+	<bean id="CustomerDaoImplBean" name="CustomerDaoImplBean" class="com.knits.spring.common.dao.CustomerDaoImpl">
+		<property name="ds" ref="datasource" />
+	</bean>
+
+
+	<bean id="CustomerServiceBean" name="CustomerService" class="com.knits.spring.common.service.CustomerService">
+		<property name="customerService" ref="CustomerDaoImplBean" />
+	</bean>
+
+<!--	<bean id="CustomerServiceBean" name="CustomerService" class="com.knits.spring.common.service.CustomerService">-->
+<!--		<property name="Customer" ref="ds" />-->
+<!--	</bean>-->
+
+	<bean id="datasource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/team_taskmanagement" />
+		<property name="username" value="root" />
+		<property name="password" value="tere" />
+<!--		<property name="minIdle" value="5" />-->
+<!--		<property name="maxIdle" value="10" />-->
+<!--		<property name="maxOpenPreparedStatements" value="100" />-->
+
+	</bean>
+
+
+
+
+<!--
+
+ 		    BasicDataSource ds = new BasicDataSource();
+
+
+		    ds.setDriverClassName("com.mysql.jdbc.Driver");
+            ds.setUrl("jdbc:mysql://localhost:3306/EShopMusic");
+            ds.setUsername("root");
+            ds.setPassword("stefan0");
+            ds.setMinIdle(5);
+            ds.setMaxIdle(10);
+            ds.setMaxOpenPreparedStatements(100);
+            return ds;
+            -->
+	
+	
+	
+	
+</beans>
