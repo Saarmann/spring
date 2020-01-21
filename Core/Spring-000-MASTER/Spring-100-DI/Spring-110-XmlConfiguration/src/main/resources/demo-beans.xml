@@ -9,14 +9,14 @@
 
 <!--	refer to bean id - CustomerDaoBean (Class CustomerDaoImpl requires datasource) refers to datasource-->
 
-	<bean id="CustomerDaoImplBean" name="CustomerDaoImplBean" class="com.knits.spring.common.dao.CustomerDaoImpl">
-		<property name="ds" ref="datasource" />
+	<bean id="CustomerDaoImplBean" name="CustomerDaoImpl" class="com.knits.spring.common.dao.CustomerDaoImpl">
+		<property name="datasource" ref="datasource" />
 	</bean>
 
 
-	<bean id="CustomerServiceBean" name="CustomerService" class="com.knits.spring.common.service.CustomerService">
-		<property name="customerService" ref="CustomerDaoImplBean" />
-	</bean>
+<!--	<bean id="CustomerServiceBean" name="CustomerService" class="com.knits.spring.common.service.CustomerService">-->
+<!--		<property name="customerService" ref="CustomerDaoImplBean" />-->
+<!--	</bean>-->
 
 <!--	<bean id="CustomerServiceBean" name="CustomerService" class="com.knits.spring.common.service.CustomerService">-->
 <!--		<property name="Customer" ref="ds" />-->

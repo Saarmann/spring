@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfe3c19-123e-48ca-9760-96d0b50fb463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/target/classes/com/knits/spring/di/demo/DemoXmlConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Spring-300-Advanced/target/" />
@@ -44,7 +35,19 @@
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,23 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#connectionTest#0;class#DemoXmlConfiguration#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -90,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
+              <caret line="18" column="28" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -108,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="56" />
+              <caret line="16" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -116,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="306">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -176,14 +166,14 @@
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/ProjectUtils.java" />
-        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" />
-        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/model/Customer.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml" />
+        <option value="$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -470,7 +460,7 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.20415778" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.17590618" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28379673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28379673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,7 +477,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32981783" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32981783" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32981783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -769,20 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -796,34 +772,31 @@
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/beans/CustomerDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="18" column="28" selection-start-line="7" selection-start-column="3" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/utils/BeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -837,13 +810,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/resources/demo-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-110-XmlConfiguration/src/main/java/com/knits/spring/di/demo/DemoXmlConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        <state relative-caret-position="463">
+          <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#connectionTest#0;class#DemoXmlConfiguration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring-100-DI/Spring-105-Common/src/main/java/com/knits/spring/common/dao/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

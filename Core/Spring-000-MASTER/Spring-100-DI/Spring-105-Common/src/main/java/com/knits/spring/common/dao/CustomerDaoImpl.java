@@ -1,11 +1,9 @@
 package com.knits.spring.common.dao;
 
-import com.knits.spring.common.beans.CustomerDto;
 import com.knits.spring.common.model.Customer;
-import com.knits.spring.common.utils.ProjectUtils;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -22,6 +20,7 @@ public class CustomerDaoImpl implements CustomerDao{
 
     @Override
     public List <Customer> myCustomerList () {
+        
         Connection conn = null;
         Customer found = null;
         List <Customer> customerList = new ArrayList<>();
