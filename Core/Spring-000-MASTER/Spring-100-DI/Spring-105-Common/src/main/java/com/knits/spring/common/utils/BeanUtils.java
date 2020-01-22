@@ -1,8 +1,8 @@
 package com.knits.spring.common.utils;
 
-import com.knits.spring.common.beans.CustomerDto;
+import com.knits.spring.common.com.kaspar.demo.CustomerDto;
 import com.knits.spring.common.beans.UserDto;
-import com.knits.spring.common.model.Customer;
+import com.knits.spring.common.com.kaspar.demo.Customer;
 import com.knits.spring.common.model.User;
 
 public class BeanUtils {

@@ -1,7 +1,6 @@
 package com.knits.spring.di.demo;
 
-import com.knits.spring.common.dao.CustomerDaoImpl;
-import com.knits.spring.common.service.CustomerService;
+import com.knits.spring.common.com.kaspar.demo.CustomerService;
 import com.knits.spring.common.service.MyService;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;

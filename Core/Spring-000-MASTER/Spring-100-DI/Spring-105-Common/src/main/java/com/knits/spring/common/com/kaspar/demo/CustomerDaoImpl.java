@@ -1,8 +1,9 @@
-package com.knits.spring.common.dao;
+package com.knits.spring.common.com.kaspar.demo;
 
-import com.knits.spring.common.model.Customer;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 
 import javax.sql.DataSource;
@@ -12,15 +13,17 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class CustomerDaoImpl implements CustomerDao{
 
+    @Autowired
     @Getter
     @Setter
-    private DataSource dataSource;
+    private DataSource dataSource; //from bean
 
     @Override
     public List <Customer> myCustomerList () {
-        
+
         Connection conn = null;
         Customer found = null;
         List <Customer> customerList = new ArrayList<>();

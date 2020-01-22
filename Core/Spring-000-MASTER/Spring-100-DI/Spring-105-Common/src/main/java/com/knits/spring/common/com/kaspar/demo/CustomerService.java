@@ -1,31 +1,34 @@
-package com.knits.spring.common.service;
+package com.knits.spring.common.com.kaspar.demo;
 
 
-import com.knits.spring.common.beans.CustomerDto;
-//import com.knits.spring.common.dao.CustomerDao;
-import com.knits.spring.common.dao.CustomerDaoImpl;
-import com.knits.spring.common.model.Customer;
 import com.knits.spring.common.utils.BeanUtils;
+
+import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Setter
+@Getter
+@Service
 
 public class CustomerService {
 
-    private CustomerDaoImpl customerDaoImpl;
+    @Autowired
+    private CustomerDaoImpl customerDaoImpl; //from bean
 
-
-    public List<CustomerDto> showCustomers (){
+    public void showCustomers (){
 
         List <Customer> dtoCustomer = customerDaoImpl.myCustomerList();
         List <CustomerDto> customersAsDtos= new ArrayList<>();
         dtoCustomer.forEach(customer -> customersAsDtos.add(BeanUtils.toModelDto(customer)));
-
-        return customersAsDtos;
+        for (CustomerDto element : customersAsDtos) {
+			System.out.println(element);
+		};
 
     }
 

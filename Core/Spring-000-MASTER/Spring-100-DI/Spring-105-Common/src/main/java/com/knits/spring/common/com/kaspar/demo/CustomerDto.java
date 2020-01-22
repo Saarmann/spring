@@ -1,9 +1,11 @@
-package com.knits.spring.common.model;
+package com.knits.spring.common.com.kaspar.demo;
 
 import lombok.Data;
+import org.springframework.stereotype.Component;
 
 @Data
-public class Customer {
+@Component
+public class CustomerDto {
 
     private int id;
     private String customerName;
@@ -17,6 +19,5 @@ public class Customer {
     private String customerEmail;
     private String contact;
     private int paymentTerm;
-
 
 }
