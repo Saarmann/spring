@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>		
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>	
-  		<mysql.driver>5.1.5</mysql.driver> 
+  		<mysql.driver>8.0.17</mysql.driver>
    		
    		<spring.version>5.1.7.RELEASE</spring.version>	
    		
@@ -79,5 +79,7 @@
    <modules>
    	<module>Spring-410-Jdbc</module>
    	<module>Spring-405-Commons</module>
+	<module>Spring-420-Hibernate</module>
+	<module>Spring-430-JPA</module>
    </modules>
 </project>

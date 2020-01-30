@@ -151,6 +151,6 @@
 		<module>Spring-010-Common</module>
       	<module>Spring-100-DI</module>
 		<module>Spring-300-Advanced</module>		
-		<module>Spring-400</module>		
-     </modules>
+		<module>Spring-400</module>
+	  </modules>
 </project>

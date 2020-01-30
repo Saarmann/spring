@@ -2,7 +2,6 @@ package com.knits.spring.jdbc.dao.helpers;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 import org.springframework.jdbc.core.RowMapper;
 
 import com.knits.spring.common.model.CD;

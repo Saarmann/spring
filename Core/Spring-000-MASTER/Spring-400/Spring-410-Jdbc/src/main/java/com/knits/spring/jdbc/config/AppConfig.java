@@ -40,7 +40,6 @@ public class AppConfig {
 		return driverManagerDataSource;
 	}
 	
-	
 	@Bean
 	public CdRowMapper cdRowMapper(){
 		return new CdRowMapper();

@@ -14,8 +14,8 @@ public class DemoCrudCd {
 		
 		
 		demoDaoImplByName("cdDaoJdbcSupportImpl");
-		demoDaoImplByName("cdDaoJdbcTemplate");
-		demoDaoImplByName("cdDaoNamedParametersJdbcTemplate");
+//		demoDaoImplByName("cdDaoJdbcTemplate");
+//		demoDaoImplByName("cdDaoNamedParametersJdbcTemplate");
 		
 	}
 	
@@ -23,7 +23,7 @@ public class DemoCrudCd {
 	private static void demoDaoImplByName(String daoBeanImpl){
 		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		CdDao cdDao= context.getBean(daoBeanImpl,CdDao.class);
-		CD cd= cdDao.findById(1l);		
+		CD cd= cdDao.findById(5l);
 		System.out.println("Found "+cd.toString());
 	}
 

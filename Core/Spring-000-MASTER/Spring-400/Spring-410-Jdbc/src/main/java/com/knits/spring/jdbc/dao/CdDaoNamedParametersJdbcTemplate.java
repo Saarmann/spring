@@ -27,7 +27,6 @@ import static com.knits.spring.jdbc.dao.Queries.CD_BY_TITLE;
 @Repository
 public class CdDaoNamedParametersJdbcTemplate implements CdDao{
 
-	
 	@Autowired
 	private DataSource dataSource;
 	
@@ -38,8 +37,7 @@ public class CdDaoNamedParametersJdbcTemplate implements CdDao{
 	private CdRowMapper cdRowMapper;
 	
 	//private SimpleJdbcInsert simpleJdbcInsert = new SimpleJdbcInsert(dataSource).withTableName("CD").usingGeneratedKeyColumns("id");
-	
-	
+
 	@Override
 	public CD findById(Long id) {
 		Map<String, Object> params = new HashMap<String, Object>();

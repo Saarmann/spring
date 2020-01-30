@@ -37,7 +37,8 @@ public class CdDaoJdbcSupportImpl extends JdbcDaoSupport implements CdDao{
 	
 	@Override
 	public CD findById(Long id) {
-		return getJdbcTemplate().queryForObject(CD_BY_ID,new Object[] { id }, cdRowMapper);			
+
+		return getJdbcTemplate().queryForObject(CD_BY_ID,new Object[] { id }, cdRowMapper);
 	}
 
 	@Override

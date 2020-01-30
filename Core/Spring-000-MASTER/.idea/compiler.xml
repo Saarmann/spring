@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-420-Hibernate" />
         <module name="Spring-120-CP-Scanning" />
         <module name="Spring-110-XmlConfiguration" />
         <module name="Spring-150-BeanLifecycles" />
         <module name="Spring-370-UnitTests" />
         <module name="Spring-105-Common" />
         <module name="Spring-410-Jdbc" />
+        <module name="Spring-430-JPA" />
         <module name="Spring-010-Common" />
         <module name="Spring-405-Commons" />
         <module name="Spring-140-BeanScopes" />
