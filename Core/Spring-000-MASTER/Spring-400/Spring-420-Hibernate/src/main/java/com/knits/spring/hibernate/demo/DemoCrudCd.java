@@ -13,7 +13,7 @@ public class DemoCrudCd {
 	public static void main(String[] args) {		
 		
 		demoDaoImplByName("cdDaoHibernateCMT");
-		demoDaoImplByName("cdDaoHibernateBMT");		
+//		demoDaoImplByName("cdDaoHibernateBMT");
 	}
 	
 	

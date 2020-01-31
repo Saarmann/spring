@@ -12,12 +12,12 @@ import lombok.Data;
 
 @Data
 @Entity //this means that hibernate knows its linked to database
-@NamedQueries({
-	@NamedQuery(
-		name = "CD_ByTitle", 
-		query = "from CD where title = :title"			
-	)
-})
+//@NamedQueries({
+//	@NamedQuery(
+//		name = "CD_ByTitle",
+//		query = "from CD where title = :title"
+//	)
+//})
 public class CD {
 
 	@Id
